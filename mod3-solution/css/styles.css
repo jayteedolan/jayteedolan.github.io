@@ -1,0 +1,74 @@
+h1{
+	position:absolute;
+	margin:0;
+	top: 5px;
+	left:10px;
+	background-color: #047863;
+	color:#34ebc9;
+}
+
+#navbar-brand{
+	position:relative;
+}
+
+#header-nav{
+	background-color: #047863;
+	border:0;
+	border-radius: 0;
+}
+
+#main-info{
+	margin: 0px 15px 0px 15px;
+	padding:0;
+}
+
+section{
+	background-color: gray;
+}
+
+h3{
+	
+}
+p{
+	padding: 0px 10px 10px 10px;
+}
+#main-content{
+	margin:0px 15px 0px 15px;
+	background-color: #34ebc9;
+}
+
+#collapsable-nav{
+	background-color:#02382e;
+}
+
+#nav-list a{
+	text-align: center;
+	font-size: 1.5em;
+	color:#34ebc9;
+}
+
+button{
+	position:absolute;
+	top:2px;
+	width: 40px;
+	height: 30px
+}
+
+/********** Medium and Large devices only **********/
+@media (min-width: 992px){
+  .navbar-right{
+  	position:absolute;
+  	top: -10px;
+  	right: 15px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+}
